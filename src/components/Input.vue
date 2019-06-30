@@ -1,12 +1,15 @@
 <template>
+    <div>
+        <input v-bind:type="type">
+    </div>
 
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Input',
   props: {
-
+      type: String
   }
 }
 </script>
